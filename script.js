@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 'poSgHQdFDQk',
-            title: '第2試合 vs文教',
+            title: '第2試合 vs文京',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 'hzom3L_wWoI',
-            title: '第4試合 vs文教',
+            title: '第4試合 vs文京',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
