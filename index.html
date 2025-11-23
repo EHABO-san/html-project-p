@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUGINAMI RUGBY | VIDEO ARCHIVE</title>
+
+    <!-- Google Fonts: 'Outfit' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navbar (No Links) -->
+    <nav class="navbar">
+        <div class="logo">SUGINAMI<span class="dot">.</span>RUGBY</div>
+        <div class="date-badge">ARCHIVE</div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <canvas id="interactive-bg"></canvas>
+        <div class="container">
+            <h1 class="fade-in"><span class="gradient-text">PRACTICE</span><br>ARCHIVE</h1>
+            <p class="fade-in delay-1">ラグビー 練習アーカイブ<br>振り返りにご利用ください</p>
+        </div>
+    </section>
+
+    <!-- Date Navigation -->
+    <nav id="date-nav" class="date-nav scroll-reveal">
+        <!-- JS will populate this -->
+    </nav>
+
+    <!-- Video Library -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+
+            <!-- Category Filter (Optional: Global Filter) -->
+            <div class="filters scroll-reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="practice">Practice</button>
+                <button class="filter-btn" data-filter="match">Match</button>
+            </div>
+
+            <!-- Archive Container -->
+            <div id="archive-container">
+                <!-- JS will populate this with Date Sections -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="video-modal">
+        <div class="close-modal" id="close-modal">✕</div>
+        <div class="modal-content">
+            <iframe id="youtube-frame" width="100%" height="100%" src="" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container scroll-reveal">
+            <p style="font-size: 0.9rem;">Respect, Discipline, Passion.</p>
+            <div class="socials">
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p style="font-size: 0.75rem; margin-top: 30px; opacity: 0.5;">&copy; 2025 Suginami Rugby Archive.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
