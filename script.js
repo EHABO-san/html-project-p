@@ -30,31 +30,38 @@ document.addEventListener("DOMContentLoaded", () => {
             desc: 'ブロンコ',
             date: '2025.11.22'
         },
-        // 2025.11.23 Match Videos (Placeholders)
+        // 2025.11.23 Match Videos
         {
-            id: 'placeholder1',
-            title: 'Match Part 1',
+            id: '-Q0CK9qNQLQ',
+            title: '第1試合 vs武蔵野',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
         },
         {
-            id: 'placeholder2',
-            title: 'Match Part 2',
+            id: 'poSgHQdFDQk',
+            title: '第2試合 vs文教',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
         },
         {
-            id: 'placeholder3',
-            title: 'Match Part 3',
+            id: 'V9Koc8Lo0fI',
+            title: '第3試合 vs武蔵野',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
         },
         {
-            id: 'placeholder4',
-            title: 'Match Part 4',
+            id: 'hzom3L_wWoI',
+            title: '第4試合 vs文教',
+            category: 'match',
+            desc: '2025.11.23 Match',
+            date: '2025.11.23'
+        },
+        {
+            id: '2DwxMubshzg',
+            title: '第5試合 vs武蔵野',
             category: 'match',
             desc: '2025.11.23 Match',
             date: '2025.11.23'
